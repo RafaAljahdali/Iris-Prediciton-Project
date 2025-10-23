@@ -1,25 +1,20 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# Iris Prediction Project
 
-Description of the app ...
+## 📌 Overview  
+This project predicts the type of Iris flower using a trained ML model.  
+🔗 **Live App:** [Iris Prediction Project](https://iris-prediciton-project.streamlit.app/)
 
-## Demo App
+## 🛠️ Key Technologies  
+- Python 3.x  
+- Streamlit (for the web interface)  
+- Scikit-learn (for model training)  
+- Pandas & NumPy (for data processing)  
+- Pickle (for model serialization)
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
-
-## GitHub Codespaces
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
-
-## Section Heading
-
-This is filler text, please replace this with text for this section.
-
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+  
+### Installation & Run  
+```bash
+git clone https://github.com/RafaAljahdali/Iris-Prediction-Project.git  
+cd Iris-Prediction-Project  
+pip install -r requirements.txt  
+streamlit run streamlit_app.py  
